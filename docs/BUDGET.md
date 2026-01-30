@@ -11,10 +11,10 @@ This document outlines the estimated costs and time investment for implementing 
 | Component | Cost (EUR) | Notes |
 |-----------|-----------|--------|
 | Meta Ray-Ban Smartglasses | ~300 | Or comparable AR glasses |
-| Android Smartphone | ~150-400 | Samsung S7 (used) or better |
+| Android Smartphone | ~50-400 | Samsung S7 (used) or better |
 | Alfa WiFi Adapter | ~50 | AWUS036ACH or similar |
 | RTL-SDR Dongle | ~30 | For RF/EMI monitoring |
-| USB-C OTG Hub | ~20 | Multi-port recommended |
+| USB OTG Hub | ~20 | Multi-port recommended |
 | Powerbank 20,000mAh | ~50 | High-quality required |
 
 **Optional Components:**
