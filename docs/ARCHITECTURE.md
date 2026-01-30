@@ -11,7 +11,7 @@ This document describes the technical architecture of PROJECT CYBERPUNK, includi
 - **Android smartphone** (Samsung Galaxy S7 or newer)
 - **Kali NetHunter** installed (rooted)
 - **Minimum specifications**: 4GB RAM, 64GB Storage
-- **USB-C with OTG support**
+- **USB with OTG support**
 
 ### 1.2 Audio/Visual Interface
 
@@ -20,12 +20,14 @@ This document describes the technical architecture of PROJECT CYBERPUNK, includi
 - **Bluetooth 5.0+ Audio** (microphone + speakers)
 - **Optional: HUD display** (for AR-capable models)
 
+Note: Meta Ray-Ban do NOT have a HUD. For HUD functionality, more expensive AR glasses are required (~800-1500 EUR).
+
 ### 1.3 Wireless Penetration Tools
 
 - **USB WiFi Adapter** (Alfa AWUS036ACH or similar)
 - **Monitor Mode + Packet Injection Support**
 - **Dual-Band** (2.4 + 5 GHz)
-- **USB-C OTG adapter**
+- **USB OTG adapter**
 
 ### 1.4 Additional Sensors
 
@@ -76,7 +78,8 @@ STT Engine (Whisper/Vosk)
 
 #### OSINT & Geolocation
 ```
-├── Maltego (Mobile)
+├── Maltego (via remote connection to desktop instance)
+├── OR: Mobile OSINT alternatives (Hunchly Mobile, etc.)
 ├── Shodan CLI
 ├── theHarvester
 ├── Exiftool
