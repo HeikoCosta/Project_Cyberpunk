@@ -6,6 +6,8 @@ __pycache__/
 .Python
 env/
 venv/
+ENV/
+.venv
 *.egg-info/
 
 # Android/Termux
@@ -29,6 +31,10 @@ secrets.yaml
 *.pcap
 *.cap
 
+# But allow example data
+!examples/data/
+!examples/*.pcap
+
 # IDE
 .vscode/
 .idea/
@@ -45,3 +51,29 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Node/npm 
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Jupyter Notebooks 
+.ipynb_checkpoints/
+*.ipynb
+
+# Docker 
+.docker/
+docker-compose.override.yml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Hardware-specific calibration files
+calibration/
+*.cal
