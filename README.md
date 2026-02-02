@@ -13,6 +13,8 @@ This tool is designed **exclusively for authorized security assessments, red tea
 
 Users are responsible for complying with all applicable laws and regulations.
 
+PROJECT CYBERPUNK is an independent open-source security research concept and is not affiliated with, endorsed by, or connected to CD Projekt Red or Cyberpunk 2077.
+
 ## Executive Summary
 
 A mobile, voice-controlled penetration testing system that enables discreet reconnaissance, analysis, and exploitation. Through the combination of AR smartglasses, Kali NetHunter, and AI-powered voice processing, a hands-free OSINT and Red Team tool for professional security audits is created.
